@@ -5,7 +5,7 @@ Version:	0.5
 Release:	1
 License:	GPL
 Group:		X11/Window Managers/Tools
-Source0:	http://www.munsterman.com/wmjsql-0.5.tar.gz/%{name}-%{version}.tar.gz
+Source0:	http://www.munsterman.com/%{name}-%{version}.tar.gz
 URL:		http://www.munsterman.com/
 BuildRequires:	XFree86-devel
 BuildRequires:  mysql-devel
@@ -40,5 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc COPYING CREDITS README TODO src/conf
+%doc CREDITS README TODO src/conf
 %attr(755,root,root) %{_bindir}/wmjsql
