@@ -8,13 +8,13 @@ Group:		X11/Window Managers/Tools
 Source0:	http://www.munsterman.com/%{name}-%{version}.tar.gz
 URL:		http://www.munsterman.com/
 BuildRequires:	XFree86-devel
-BuildRequires:  mysql-devel
+BuildRequires:	mysql-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 
 %description
-WindowMaker dock app that monitors the status of a MySQL server. 
+WindowMaker dock app that monitors the status of a MySQL server.
 
 %description -l pl
 Program monitoruj±cy serwer(y) MySQL.
@@ -28,7 +28,7 @@ cd src
 %{__make} \
 	CXX="%{__cxx}" \
 	LD="%{__cxx}" \
-	CXXFLAGS="%{rpmcflags}" 
+	CXXFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
