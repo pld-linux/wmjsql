@@ -11,7 +11,6 @@ BuildRequires:	XFree86-devel
 BuildRequires:	mysql-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 WindowMaker dock app that monitors the status of a MySQL server.
