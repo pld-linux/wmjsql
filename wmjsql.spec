@@ -1,5 +1,5 @@
 Summary:	MySQL monitor for WindowMaker
-Summary(pl.UTF-8):   Program dla WindowMakera monitorujący serwer MySQL
+Summary(pl.UTF-8):	Program dla WindowMakera monitorujący serwer MySQL
 Name:		wmjsql
 Version:	0.5
 Release:	1
