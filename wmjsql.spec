@@ -1,5 +1,5 @@
 Summary:	MySQL monitor for WindowMaker
-Summary(pl):	Program dla WindowMakera monitoruj±cy serwer MySQL
+Summary(pl.UTF-8):   Program dla WindowMakera monitorujÄ…cy serwer MySQL
 Name:		wmjsql
 Version:	0.5
 Release:	1
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 WindowMaker dock app that monitors the status of a MySQL server.
 
-%description -l pl
-Program monitoruj±cy serwer(y) MySQL.
+%description -l pl.UTF-8
+Program monitorujÄ…cy serwer(y) MySQL.
 
 %prep
 %setup -q -n wmjsql
